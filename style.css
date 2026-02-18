@@ -1,0 +1,5 @@
+html,body { background-color: rgb(48, 46, 51); margin: 0 !important; }
+#headerText{ color: rgb(212, 212, 212); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; font-size: 38px; font-weight: 600; background-color: rgba(0, 0, 0, 0.37);}
+#shoppingList{ border-top: 4px white double}
+.mb-3 { background-color: rgb(48, 46, 51); padding: 0px 50px 0px 50px;}
+li { cursor: pointer; }
