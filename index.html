@@ -11,32 +11,35 @@
     </head>
     <body>
 
-        <p id="headerText">Lista zakupów</p>
+        <main>
+            <header>
+                <p>❏ Lista zakupów</p>
+            </header>
 
-        <div class="mb-3">
-            <input type="text" id="productInput" class="form-control" placeholder="Wpisz produkt...">
-        </div>
-
-        <div class="mb-3">
-            <button id="addProduct" class="btn btn-primary">Dodaj produkt</button>
-            <button id="removeLast" class="btn btn-danger">Usuń ostatni produkt</button>
-            <button id="addStart" class="btn btn-success">Dodaj na początku</button>
-            <button id="addEnd" class="btn btn-success">Dodaj na końcu</button>
-            <button id="clearList" class="btn btn-warning">Wyczyść listę</button>
-            <button id="restoreList" class="btn btn-info">Przywróć listę</button>
-            <button id="colorEven" class="btn btn-secondary">Pokoloruj co drugi element</button>
-            <button id="sortList" class="btn btn-dark">Sortuj alfabetycznie</button>
-        </div>
-
-        <div class="mb-3">
-            <input type="text" id="filterInput" class="form-control" placeholder="Filtruj...">
-        </div>
-
-        <ul id="shoppingList" class="list-group">
-            <!--Koszyk znajduje się tutaj-->
-        </ul>
-
-        <!--Skrypt JS-->
-        <script src="script.js" type="text/javascript"></script>
+            <div class="mb-3" id="baseTools">
+                <input type="text" id="productInput" class="form-control" placeholder="Wpisz produkt...">
+                <button id="addProduct" class="btn btn-primary">＋</button>
+                <button id="addStart" class="btn btn-success">⩱</button>
+                <button id="addEnd" class="btn btn-success">⩲</button>
+                <input type="text" id="filterInput" class="form-control" placeholder="Filtruj...">
+            </div>
+    
+            <div class="bordersect"></div>
+    
+            <div class="mb-3" id="secondaryTools">
+                <button id="removeLast" class="btn btn-danger">🗑️</button>
+                <button id="clearList" class="btn btn-warning">🧹</button>
+                <button id="restoreList" class="btn btn-info">🔙</button>
+                <button id="colorEven" class="btn btn-secondary">🖍️</button>
+                <button id="sortList" class="btn btn-dark">🔠</button>
+            </div>
+    
+            <ul id="shoppingList" class="list-group">
+                <!--Koszyk znajduje się tutaj-->
+            </ul>
+    
+            <!--Skrypt JS-->
+            <script src="script.js" type="text/javascript"></script>
+        </main>
     </body>
 </html>

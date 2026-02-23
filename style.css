@@ -1,5 +1,11 @@
-html,body { background-color: rgb(48, 46, 51); margin: 0 !important; }
-#headerText{ color: rgb(212, 212, 212); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; font-size: 38px; font-weight: 600; background-color: rgba(0, 0, 0, 0.37);}
-#shoppingList{ border-top: 4px white double}
-.mb-3 { background-color: rgb(48, 46, 51); padding: 0px 50px 0px 50px;}
+html,body { background-color: rgb(72, 78, 97); margin: 0 !important; }
+main{border-radius: 25px 25px 5px 5px; background-color: rgb(175, 183, 228); margin: 15px 25px 0px 25px; overflow: hidden;}
+header > p{ color: rgb(255, 255, 255); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; font-size: 38px; font-weight: 600; background-color: rgba(48, 84, 202, 0.678);}
+#shoppingList{ border-top: 4px rgba(0, 0, 0, 0.678) double}
+.mb-3 { padding: 0px 10px 0px 10px;}
 li { cursor: pointer; }
+.bordersect { height: 1px; border-top: 1px rgba(0, 0, 0, 0.678) dotted; margin: 6px 0px 6px 0px}
+#productInput {width: 45%; float: left;}
+#filterInput {width: 20%; float: right;}
+#baseTools, #secondaryTools{ overflow: hidden; height: 38px; background-color: rgba(0, 0, 0, 0.123);}
+#secondaryTools { text-align: center;}
