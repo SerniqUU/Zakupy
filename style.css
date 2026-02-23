@@ -1,4 +1,4 @@
-html,body { background-color: rgb(72, 78, 97); margin: 0 !important; }
+html,body { background-color: rgb(129, 141, 182); margin: 0 !important; }
 main{border-radius: 25px 25px 5px 5px; background-color: rgb(175, 183, 228); margin: 15px 25px 0px 25px; overflow: hidden;}
 header > p{ color: rgb(255, 255, 255); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; font-size: 38px; font-weight: 600; background-color: rgba(48, 84, 202, 0.678);}
 #shoppingList{ border-top: 4px rgba(0, 0, 0, 0.678) double}
